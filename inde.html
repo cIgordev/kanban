@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quadro Kanban - SESI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Quadro Kanban - SESI</h2>
+    
+    <div class="kanban-container">
+        <!-- Coluna 1: A Fazer -->
+        <div class="board" id="todo-board">
+            <div class="card" draggable="true">Javascript Prof.Pety</div>
+            <div class="card" draggable="true">Modelar Banco de Dados<br>Prof. Jonh</div>
+            <div class="card" draggable="true">Criar API REST</div>
+        </div>
+        
+        <!-- Coluna 2: Concluído / Destino -->
+        <div class="board" id="done-board">
+            <!-- Os cartões serão arrastados para cá -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
